@@ -1,0 +1,77 @@
+  h3, h4, h5, h6, h7, h8, h9, h10, h11 {
+  font-size: 24px;
+  font-weight: bold; 
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color:ghostwhite; }
+
+h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+color:crimson;
+font-size:xx-large;
+font-weight:bolder;
+    margin-bottom: 0;
+
+}
+
+h2 {
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+color:crimson;
+font-size:x-small;
+font-weight:bolder;
+    margin-top: 0;
+}
+
+body {
+    background-color: #122E34;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:ghostwhite;
+    font-weight: bold;
+}
+
+p {
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+color:ghostwhite;
+font-size:small;
+}
+
+p {
+    max-width: 500px; 
+    
+    word-break: normal; 
+    overflow-wrap: break-word; 
+    
+    text-align: center; 
+  
+    border: 5px solid crimson; 
+    
+    padding: 12px; 
+    box-sizing: border-box; 
+    border-radius: 8px; 
+}
+
+
+body {
+    background-image: url('https://image.api.playstation.com/vulcan/ap/rnd/202302/0216/e72e95dcc7a7b15c22544e581f7cefcaaab02b93e9faf982.jpg'); /* Ensure this matches your file name */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+
+body::before {
+    content: "";
+    position: fixed;
+    top: -10%;
+    left: -10%;
+    width: 120%;
+    height: 120%;
+    background: radial-gradient(circle, rgba(18,46,52,0.4) 0%, rgba(9,23,26,0.9) 100%);
+    filter: blur(40px); /* Heavy fog blur effect */
+    z-index: -1;
+    pointer-events: none;
+}
+
